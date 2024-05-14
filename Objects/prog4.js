@@ -39,6 +39,28 @@ const reguleruser ={
 console.log(reguleruser.fullname.username.firstname);
 
 
+//  Exemple :-  
+
+const reguleruser1 ={
+
+family : "Bhunia",
+
+vill:{
+
+
+    p:"Jhakra"
+}
+
+
+
+}
+
+console.log(reguleruser1.vill.p);
+
+
+
+
+
 
 // combine objects 
 
@@ -56,3 +78,21 @@ console.log(obj3);
 console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser));
+
+
+const chanda={
+
+vill: "chanda",
+bhunia :{
+  g : "Rita"
+},
+
+post : "Jhakra",
+
+dist : "Paschim Medinipur",
+
+pin : "721201"
+
+}
+
+console.log(chanda.bhunia.g);

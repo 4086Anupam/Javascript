@@ -34,4 +34,5 @@ console.log(jsuser.name);   // another process
 console.log(jsuser["name"]);  // another process 
 
 console.log( jsuser[mysym]);
+console.log( jsuser.age);
 

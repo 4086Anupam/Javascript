@@ -41,7 +41,7 @@ console.log(anotherNameone);
 
 
 
-const familyName="      Bhunia      "
+const familyName="Bhunia"
 console.log(familyName);
 console.log(familyName.trim()); // not use space 
 
@@ -49,4 +49,3 @@ console.log(familyName.trim()); // not use space
 
 const url= "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt" // for url 
 console.log(url.replace("/web/","weds"));
-console.log("End..");
